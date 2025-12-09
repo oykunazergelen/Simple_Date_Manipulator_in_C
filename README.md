@@ -49,9 +49,9 @@ Enter the second date (DD MM YYYY): 22 12 2025
 Which action would you like to take?
 1. Get the difference
 2. Advance date
-3. Reverse Date
+3. Reverse Date                                                                                       
 4. Change the Dates
-4. Exit Program
+4. Exit Program                                                                                 ![how it should look like](images/Ekran görüntüsü 2025-12-09 052510.png)
 
 Enter your choice: 2
 
