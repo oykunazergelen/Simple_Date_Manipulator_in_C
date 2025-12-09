@@ -66,4 +66,4 @@ How many days to advance?
 First date after advancing: 
 18/12/2025
 
-![how it should look like](images/Ekran görüntüsü 2025-12-09 052510.png)
+![how it should look like](images/screenshot.png)
