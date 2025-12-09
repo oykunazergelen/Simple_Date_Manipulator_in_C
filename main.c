@@ -154,17 +154,17 @@ int main(void) {
             printf("Enter your choice: ");
             scanf(" %c", &choice3);
 
-            printf("\nHow many days to advance? \n");
+            printf("\nHow many days to advance? ");
             scanf("%d", &number);
 
             if (choice3 == 'a') {
                 advanceDate(&date1, number);
-                printf("\nFirst date after advancing: \n");
+                printf("\nFirst date after advancing: ");
                 printDate(date1);
             } 
             else if (choice3 == 'b') {
                 advanceDate(&date2, number);
-                printf("\nSecond date after advancing: \n");
+                printf("\nSecond date after advancing: ");
                 printDate(date2);
             }
             break;
@@ -184,19 +184,19 @@ int main(void) {
 
             if (choice2 == 'a') {
                 reverseDate(&date1, number2);
-                printf("\nFirst date after reversing: \n");
+                printf("\nFirst date after reversing: ");
                 printDate(date1);
             } 
             else if (choice2 == 'b') {
                 reverseDate(&date2, number2);
-                printf("\nSecond date after reversing: \n");
+                printf("\nSecond date after reversing: ");
                 printDate(date2);
             }
             break;
         }
 
         case 4:
-            printf("\nEnter the new first date (DD MM YYYY): \n");
+            printf("\nEnter the new first date (DD MM YYYY): ");
             scanf("%d %d %d", &day, &month, &year);
             setDate(&date1, day, month, year);
 
@@ -205,7 +205,7 @@ int main(void) {
             return 1;
              }
 
-            printf("Enter the new second date (DD MM YYYY): \n");
+            printf("Enter the new second date (DD MM YYYY): ");
             scanf("%d %d %d", &day, &month, &year);
             setDate(&date2, day, month, year);
 
